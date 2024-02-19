@@ -1,0 +1,141 @@
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 0;
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+  }
+  
+  .logo {
+    float: left;
+  }
+  
+  .logo img {
+    max-height: 50px;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  nav ul li a:hover {
+    color: #ff0000;
+  }
+  
+  .search {
+    float: right;
+    margin-left: 10px;
+  }
+  
+  .search input {
+    padding: 5px;
+    border: 1px solid #dddddd;
+    width: 150px;
+  }
+  
+  .search button {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search button:hover {
+    background-color: #ff0000;
+  }
+  nav>ul>li{
+    margin-right: 50px;
+  }
+  .hero-sec{
+    display: flex;
+    background-image: url(/assests/background.webp);
+    height: 754px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .hero-sec>.banner{
+    width: 1357px;
+  }
+  .hero-sec>.banner>img{
+    width: 100%;
+  }
+  .hero-left>.hero-p>p{
+       font-size: 14px;
+       font-family: robo;
+  }
+  .hero-left>h5{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 30px;
+  }
+  .hero-left>button{
+    border: none;
+    outline: none;
+    background-color: #f5204b;
+    height: 50px;
+    width: 168px;
+    color: white;
+  }
+
+  /* .range-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.range-slider-thumb:hover {
+    background: #F9FAFB;
+}
+.range-slider-track {
+    appearance: none;
+    width: 100%;
+    height: 2px;
+    background: #D1D5DB;
+    cursor: pointer;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    margin-top: -9px; 
+     Adjust to slide centrally
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 2px;
+    background: #D1D5DB;
+    cursor: pointer;
+}  */
+
+.hero-right {
+    margin-top: 60px;
+}
